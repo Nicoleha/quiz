@@ -4,5 +4,21 @@ color:rgb(10, 10, 26);}
 .well{text-align:center;
 font-family:monospace;
 }
-footer{background-color: bisque;}
+footer{background-color: bisque;
+margin-top:40px;
+text-align:center;
+font-size:12px;
+font-family:'Arial Black';
+color:rgb(66, 11, 11);}
+.col-md-6{border:5px solid bisque;
+}
 
+label{padding:20px;
+font-size:19px;
+font-family:'Courier New'}
+.radio p{color:rgb(71, 17, 17);
+font-family:monospace;
+font-size:15px;}
+button{padding:50px;
+background-color:rgb(167, 140, 93);
+font-size:20px;}

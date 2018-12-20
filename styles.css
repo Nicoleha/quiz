@@ -2,15 +2,17 @@ body{background-color:wheat;
 color:rgb(10, 10, 26);}
 
 .well{text-align:center;
-font-family:monospace;}
+font-family:monospace;
+background-image:url('https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+background-size:cover;}
 
-footer{background-color: bisque;
+footer{background-color:rgb(66, 11, 11);
 margin-top:40px;
 text-align:center;
 font-size:12px;
 font-family:'Arial Black';
-color:rgb(66, 11, 11);}
-.row{border:5px solid bisque;
+color:wheat;}
+.row{border:5px solid rgb(66, 11, 11);
 }
 
 label{padding:20px;
@@ -19,6 +21,23 @@ font-family:'Courier New'}
 .radio p{color:rgb(71, 17, 17);
 font-family:monospace;
 font-size:15px;}
-button{padding:50px;
-background-color:rgb(167, 140, 93);
-font-size:20px;}
+button{padding:15px;
+    width:100%;
+background-color:rgb(66, 11, 11);
+font-size:20px;
+color:wheat;}
+#marks{
+    visibility: hidden;
+    background: #ff5459;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #mark {
+    display: inline-block;
+  }
+  #mark{
+    display: none;
+  }

@@ -1,53 +1,63 @@
 function result() {
-    var one = document.quiz.one.value;
-    var two = document.quiz.two.value;
-    var three = document.quiz.three.value;
-    var four = document.quiz.four.value;
-    var five = document.quiz.five.value;
-    var six = document.quiz.six.value;
-    var seven = document.quiz.seven.value;
-    var eight = document.quiz.eight.value;
-    var nine = document.quiz.nine.value;
-    var ten = document.quiz.ten.value;
+    var questionOne = document.quiz.questionOne.value;
+    var questionTwo = document.quiz.questionTwo.value;
+    var questionThree = document.quiz.questionThree.value;
+    var questionFour = document.quiz.questionFour.value;
+    var questionFive = document.quiz.questionFive.value;
+    var questionSix = document.quiz.questionSix.value;
+    var questionSeven = document.quiz.questionSeven.value;
+    var questionEight = document.quiz.questionEight.value;
+    var questionNine = document.quiz.questionNine.value;
+    var questionTen = document.quiz.questionTen.value;
+    var questionEleven = document.quiz.questionEleven.value;
+    var questionTwelve = document.quiz.questionTwelve.value;
+    var questionThirteen = document.quiz.questionThirteen.value;
+    var questionFourteen = document.quiz.questionFourteen.value;
+    var questionFifteen = document.quiz.questionFifteen.value;
+    var questionSixteen = document.quiz.questionSixteen.value;
+    var questionSeventeen = document.quiz.questionSeventeen.value;
+    var questionEighteen = document.quiz.questionEighteen.value;
+    var questionNineteen = document.quiz.questionNineteen.value;
+    var questionTwenty = document.quiz.questionTwenty.value;
+
     var count = 0;
   
-    if (one == "2") {
+    if (questionOne == "a") {
+    }
+    if (questionTwo == "b") {
       count += 5;
     }
-    if (two == "2") {
+    if (questionThree == "c") {
       count += 5;
     }
-    if (three == "3") {
+    if (questionFour == "a") {
       count += 5;
     }
-    if (four == "3") {
+    if (questionFive == "b") {
       count += 5;
     }
-    if (five == "4") {
+    if (questionSix == "c") {
       count += 5;
     }
-    if (six == "2") {
+    if (questionSeven == "a") {
       count += 5;
     }
-    if (seven == "2") {
+    if (questionEight == "b") {
       count += 5;
     }
-    if (eight == "3") {
+    if (questionNine == "a") {
       count += 5;
     }
-    if (nine == "2") {
+    if (questionTen == "a") {
       count += 5;
     }
-    if (ten == "4") {
-      count += 5;
-    }
-    document.getElementById("marks").style.visibility = "visible";
+    document.getquestionElevenmentById("marks").style.visibility = "visible";
   
-    document.getElementById("mark").innerHTML =
+    document.getquestionElevenmentById("mark").innerHTML =
       "You got " + count + "/50";
   
-    $("#button").hide();
+    $("button").hide();
     $("#quiz").hide();
-    $("#number_count").show();
+    $("#mark").show();
     event.preventDefault();
   }

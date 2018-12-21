@@ -11,10 +11,28 @@ Quiz board is a website that is designed to test javascript learners and help th
 This website can be view on mobile or computer and with ease and it is made for easy learning.
 ## BDD(Behavior-Driven Development)
 ### The following is what my program should handle:
+It can determine if the provided answer is correct or wrong
+
+#### Example Intput : 
+correctly answered questions 
+ ##### Output:
+ 1 per correct answer
+
+#### Example Input : 
+not answered questions
+#####  Output:
+0 (No mark awarded)
+
+#### Example Input:
+Wrong answer questions
+##### Output
+0 (Mark not awarded)
+
+##### Total marks to be awwarded must be twenty
 
 
 ## Known Bugs
-All safe , no bugs will be encoutered on my triangle tracker website.
+All safe , no bugs will be encoutered on my quiz board website. But in case it is unfortunately encountered kindly reach out.
 ## Technologies Used
 In making the quiz board website is mainly  used javascript,html,css and jquery to handle my program.
 I also used ubuntu software and visual studio code to write my code and used github to push my repository and host the website. 

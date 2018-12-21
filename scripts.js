@@ -51,6 +51,35 @@ function result() {
     if (questionTen == "a") {
       count += 5;
     }
+    if (questionEleven == "a") {
+    }
+    if (questionTwelve == "b") {
+      count += 5;
+    }
+    if (questionThirteen == "c") {
+      count += 5;
+    }
+    if (questionFourteen == "a") {
+      count += 5;
+    }
+    if (questionFifteen == "b") {
+      count += 5;
+    }
+    if (questionSixteen == "c") {
+      count += 5;
+    }
+    if (questionSeventeen == "a") {
+      count += 5;
+    }
+    if (questionEighteen == "b") {
+      count += 5;
+    }
+    if (questionNineteen == "a") {
+      count += 5;
+    }
+    if (questionTwenty == "a") {
+      count += 5;
+    }
     document.getquestionElevenmentById("marks").style.visibility = "visible";
   
     document.getquestionElevenmentById("mark").innerHTML =

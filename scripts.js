@@ -22,7 +22,7 @@ $(document).ready(function() {
     $('form').submit(function(event) {
         event.preventDefault();
         $('form').hide();
-        $('#result').show()
+        $('#marks').show()
         returnScore();
     })
 })

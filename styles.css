@@ -11,23 +11,30 @@ margin-top:40px;
 text-align:center;
 font-size:12px;
 font-family:'Arial Black';
-color:wheat;}
+color:wheat;
+height:100%;}
 .row{border:5px solid rgb(66, 11, 11);
 }
-
+#form input[type="radio"]{color:red;}
 ol>li{padding:20px;
 font-size:19px;
 font-family:'Courier New'}
 
 .radio ol>li{color:rgb(71, 17, 17);
 font-family:monospace;
-font-size:15px;}
+font-size:15px;
+}
+ol{list-style-type: none;}
 button{padding:15px;
     width:100%;
 background-color:rgb(66, 11, 11);
 font-size:20px;
 color:wheat;}
 
-  #result{
+  #marks{
     display: none;
   }
+  #marks{font-family:monospace;
+  color:rgb(66, 11, 11);
+border:2px dashed rgb(66, 11, 11);
+padding:50px;}

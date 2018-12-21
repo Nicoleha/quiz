@@ -15,11 +15,11 @@ color:wheat;}
 .row{border:5px solid rgb(66, 11, 11);
 }
 
-label{padding:20px;
+ol>li{padding:20px;
 font-size:19px;
 font-family:'Courier New'}
 
-.radio p{color:rgb(71, 17, 17);
+.radio ol>li{color:rgb(71, 17, 17);
 font-family:monospace;
 font-size:15px;}
 button{padding:15px;

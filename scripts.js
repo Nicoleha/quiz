@@ -1,89 +1,89 @@
-function result() {
-    var questionOne = document.quiz.questionOne.value;
-    var questionTwo = document.quiz.questionTwo.value;
-    var questionThree = document.quiz.questionThree.value;
-    var questionFour = document.quiz.questionFour.value;
-    var questionFive = document.quiz.questionFive.value;
-    var questionSix = document.quiz.questionSix.value;
-    var questionSeven = document.quiz.questionSeven.value;
-    var questionEight = document.quiz.questionEight.value;
-    var questionNine = document.quiz.questionNine.value;
-    var questionTen = document.quiz.questionTen.value;
-    var questionEleven = document.quiz.questionEleven.value;
-    var questionTwelve = document.quiz.questionTwelve.value;
-    var questionThirteen = document.quiz.questionThirteen.value;
-    var questionFourteen = document.quiz.questionFourteen.value;
-    var questionFifteen = document.quiz.questionFifteen.value;
-    var questionSixteen = document.quiz.questionSixteen.value;
-    var questionSeventeen = document.quiz.questionSeventeen.value;
-    var questionEighteen = document.quiz.questionEighteen.value;
-    var questionNineteen = document.quiz.questionNineteen.value;
-    var questionTwenty = document.quiz.questionTwenty.value;
+function result(event) {
+    var questionOne = $("input:radio[name=questionOne]:checked").val();
+    var questionTwo =$("input:radio[name=questionTwo]:checked").val();
+    var questionThree = $("input:radio[name=questionThree]:checked").val();
+    var questionFour =$("input:radio[name=questionFour]:checked").val();
+    var questionFive = $("input:radio[name=questionFive]:checked").val();
+    var questionSix =$("input:radio[name=questionSix]:checked").val();
+    var questionSeven = $("input:radio[name=questionSeven]:checked").val();
+    var questionEight = $("input:radio[name=questionEight]:checked").val();
+    var questionNine = $("input:radio[name=questionNine]:checked").val();
+    var questionTen = $("input:radio[name=questionTen]:checked").val();
+    var questionEleven = $("input:radio[name=questionEleven]:checked").val();
+    var questionTwelve = $("input:radio[name=questionTwelve]:checked").val();
+    var questionThirteen = $("input:radio[name=questionThirteen]:checked").val();
+    var questionFourteen = $("input:radio[name=questionFourteen]:checked").val();
+    var questionFifteen = $("input:radio[name=questionFifteen]:checked").val();
+    var questionSixteen = $("input:radio[name=questionSixteen]:checked").val();
+    var questionSeventeen =$("input:radio[name=questionSeventeen]:checked").val();
+    var questionEighteen = $("input:radio[name=questionEighteen]:checked").val();
+    var questionNineteen = $("input:radio[name=questionNineteen]:checked").val();
+    var questionTwenty = $("input:radio[name=questionTwenty]:checked").val();
 
     var count = 0;
   
-    if (questionOne == "a") {
-    }
-    if (questionTwo == "b") {
+    if (questionOne == "b") {
       count += 1;
     }
-    if (questionThree == "c") {
+    if (questionTwo == "c") {
       count += 1;
     }
-    if (questionFour == "a") {
+    if (questionThree == "b") {
       count += 1;
     }
-    if (questionFive == "b") {
+    if (questionFour == "b") {
       count += 1;
     }
-    if (questionSix == "c") {
+    if (questionFive == "a") {
       count += 1;
     }
-    if (questionSeven == "a") {
+    if (questionSix == "a") {
       count += 1;
     }
-    if (questionEight == "b") {
+    if (questionSeven == "c") {
       count += 1;
     }
-    if (questionNine == "a") {
+    if (questionEight == "c") {
+      count += 1;
+    }
+    if (questionNine == "c") {
       count += 1;
     }
     if (questionTen == "a") {
       count += 1;
     }
-    if (questionEleven == "a") {
+    if (questionEleven == "b") {
     }
-    if (questionTwelve == "b") {
+    if (questionTwelve == "a") {
       count += 1;
     }
-    if (questionThirteen == "c") {
+    if (questionThirteen == "a") {
       count += 1;
     }
-    if (questionFourteen == "a") {
+    if (questionFourteen == "c") {
       count += 1;
     }
-    if (questionFifteen == "b") {
+    if (questionFifteen == "d") {
       count += 1;
     }
     if (questionSixteen == "c") {
       count += 1;
     }
-    if (questionSeventeen == "a") {
+    if (questionSeventeen == "d") {
       count += 1;
     }
     if (questionEighteen == "b") {
       count += 1;
     }
-    if (questionNineteen == "a") {
+    if (questionNineteen == "b") {
       count += 1;
     }
-    if (questionTwenty == "a") {
+    if (questionTwenty == "c") {
       count += 1;
     }
-    document.geElementById("marks").style.visibility = "visible";
+    document.getElementById("marks").styles.visibility = "visible";
   
-    document.getElementById("mark").innerHTML =
-      "You got " + count + "/50";
+    document.getElementById("mark").innerHTML ="You got " + count + "/20";
   
     $("#button").hide();
     $("#quiz").hide();

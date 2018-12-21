@@ -10,7 +10,7 @@ Quiz board is a website that is designed to test javascript learners and help th
 * There you are, Time for quiz!
 questionThirteens website can be view on mobile or computer and with ease and it is made for easy learning.
 ## BDD(Behavior-Driven Development)
-### The following is what my program should handle:
+### (SPECs)The following is what my program should handle:
 It can determine if the provided answer is correct or wrong
 
 #### Example Intput : 

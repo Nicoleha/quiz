@@ -2,7 +2,7 @@ body{background-color:wheat;}
 
 .well{text-align:center;
 font-family:monospace;
-background-image:url('https://images.pexels.com/photos/48126/books-education-school-literature-48126.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+/* background-image:url('https://images.pexels.com/photos/48126/books-education-school-literature-48126.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); */
 background-size:cover;
 color:rgb(66,11,11);}
 
@@ -15,17 +15,18 @@ color:wheat;
 height:100%;}
 .row{border:5px solid rgb(66, 11, 11);
 }
-#form input[type="radio"]{color:red;}
+
 ol>li{padding:20px;
 font-size:19px;
-font-family:'Courier New'}
+font-family:'Courier New';
+color:rgb(66,11,11);}
 
-.radio ol>li{color:rgb(71, 17, 17);
+/* .radio ol>li{color:rgb(71, 42, 42);
 font-family:monospace;
 font-size:15px;
-}
+} */
 ol{list-style-type: none;}
-button{padding:15px;
+button{padding:10px;
     width:100%;
 background-color:rgb(66, 11, 11);
 font-size:20px;
@@ -37,4 +38,9 @@ color:wheat;}
   #marks{font-family:monospace;
   color:rgb(66, 11, 11);
 border:2px dashed rgb(66, 11, 11);
-padding:50px;}
+padding:50px;
+margin:300px;
+font-size:50px;}
+#form{font-size:19px;
+font-family:serif;}
+#one{font-family:monospace;}

@@ -1,4 +1,4 @@
-var answers = ["b", "c", "b", "b", "a", "a", "c", "c", "c", "a","b","a","a","c","d","c","d","b","b","c"]
+var answers = ["b", "c", "b", "b", "a", "a", "c", "c", "c", "a","b","a","a","c","d","c","d","b","b","c"],
     tot = answers.length;
 
 function getCheckedValue(radioName) {
@@ -18,11 +18,11 @@ function getScore() {
 
 $(document).ready(function() {
     $('form').show()
-    $('.result').hide()
+    $('#result').hide()
     $('form').submit(function(event) {
         event.preventDefault();
         $('form').hide();
-        $('.result').show()
+        $('#result').show()
         returnScore();
     })
 })

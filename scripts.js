@@ -25,67 +25,67 @@ function result() {
     if (questionOne == "a") {
     }
     if (questionTwo == "b") {
-      count += 5;
+      count += 1;
     }
     if (questionThree == "c") {
-      count += 5;
+      count += 1;
     }
     if (questionFour == "a") {
-      count += 5;
+      count += 1;
     }
     if (questionFive == "b") {
-      count += 5;
+      count += 1;
     }
     if (questionSix == "c") {
-      count += 5;
+      count += 1;
     }
     if (questionSeven == "a") {
-      count += 5;
+      count += 1;
     }
     if (questionEight == "b") {
-      count += 5;
+      count += 1;
     }
     if (questionNine == "a") {
-      count += 5;
+      count += 1;
     }
     if (questionTen == "a") {
-      count += 5;
+      count += 1;
     }
     if (questionEleven == "a") {
     }
     if (questionTwelve == "b") {
-      count += 5;
+      count += 1;
     }
     if (questionThirteen == "c") {
-      count += 5;
+      count += 1;
     }
     if (questionFourteen == "a") {
-      count += 5;
+      count += 1;
     }
     if (questionFifteen == "b") {
-      count += 5;
+      count += 1;
     }
     if (questionSixteen == "c") {
-      count += 5;
+      count += 1;
     }
     if (questionSeventeen == "a") {
-      count += 5;
+      count += 1;
     }
     if (questionEighteen == "b") {
-      count += 5;
+      count += 1;
     }
     if (questionNineteen == "a") {
-      count += 5;
+      count += 1;
     }
     if (questionTwenty == "a") {
-      count += 5;
+      count += 1;
     }
-    document.getquestionElevenmentById("marks").style.visibility = "visible";
+    document.geElementById("marks").style.visibility = "visible";
   
-    document.getquestionElevenmentById("mark").innerHTML =
+    document.getElementById("mark").innerHTML =
       "You got " + count + "/50";
   
-    $("button").hide();
+    $("#button").hide();
     $("#quiz").hide();
     $("#mark").show();
     event.preventDefault();

@@ -6,7 +6,7 @@ Quiz board is a website that is designed to test javascript learners and help th
 ## Setup/Installation Requirements
 * Open your computer
 * Connect to internet
-* search for my link: Nicoleha.github.io/quiz
+* search for my link: https://nicoleha.github.io/quiz/
 * There you are, Time for quiz!
 Quiz board website can be view on mobile or computer and with ease and it is made for easy learning.
 ## BDD(Behavior-Driven Development)

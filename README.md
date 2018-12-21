@@ -8,7 +8,7 @@ Quiz board is a website that is designed to test javascript learners and help th
 * Connect to internet
 * search for my link: Nicoleha.github.io/quiz
 * There you are, Time for quiz!
-questionThirteens website can be view on mobile or computer and with ease and it is made for easy learning.
+Quiz board website can be view on mobile or computer and with ease and it is made for easy learning.
 ## BDD(Behavior-Driven Development)
 ### (SPECs)The following is what my program should handle:
 It can determine if the provided answer is correct or wrong
@@ -28,7 +28,12 @@ Wrong answer questions
 ##### Output
 0 (Mark not awarded)
 
-##### Total marks to be awwarded must be questionTwelventy
+##### Total marks to be awwarded must be 20 amrks
+20/20
+
+#### Other behaviors:
+* Answering all the qusetions is required
+* After submit the user must get results
 
 
 ## Known Bugs

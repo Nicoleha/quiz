@@ -1,3 +1,4 @@
+//Business Logic
 var answers = ["b", "c", "b", "b", "a", "a", "c", "c", "c", "a","b","a","a","c","d","c","d","b","b","c"],
     tot = answers.length;
 
@@ -16,20 +17,24 @@ function getScore() {
     return score;
 }
 
-$(document).ready(function() {
-    $('form').show()
-    $('#result').hide()
-    $('form').submit(function(event) {
-        event.preventDefault();
-        $('form').hide();
-        $('#marks').show()
-        returnScore();
-    })
-})
+
 
 
 
 function returnScore() {
-    // alert("Your score is " + getScore() + "/" + tot);
+   
     document.getElementById('marks').innerHTML = "Your score is " + "<br>" + getScore() + "/" + tot;
 }
+
+
+// User Interface
+$(document).ready(function() {
+  $('form').show()
+  $('#result').hide()
+  $('form').submit(function(event) {
+      event.preventDefault();
+      $('form').hide();
+      $('#marks').show()
+      returnScore();
+  })
+})
